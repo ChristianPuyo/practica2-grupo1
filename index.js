@@ -1,5 +1,5 @@
 // index.js
-const db = require('./models/index')
+const db = require('./models')
 const server = require('./server');
 
 

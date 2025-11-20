@@ -1,8 +1,8 @@
 const sequelize = require('../db');
 
 // Importar modelos
-const Course = require('./Course')
-const Department = require('./Department')
+const Course = require('./Coursee')
+const Department = require('../Department')
 const Enrollment = require('./Enrollment')
 const Group = require('./Group');
 const Period = require('./Period')
@@ -10,7 +10,7 @@ const Permission = require('./Permission')
 const Plan = require('./Plan')
 const Prerequisite = require('./Prerequisite')
 const Student = require('./Student')
-const Teacher = require('./Teacher')
+const Teacher = require('../Teacher')
 const User = require('./User')
 
 
@@ -19,13 +19,13 @@ const User = require('./User')
 // Importar todos los modelos
 const db = {
   sequelize, //Con esto nos aseguramos de exportar la misma instancia de sequelize que creamos
-  Course,
+  Coursee,
   Department,
   Enrollment,
   Group,
   Period,
   Permission,
-  Plan,
+  Plann,
   Prerequisite,
   Student,
   Teacher,
